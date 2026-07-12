@@ -1,0 +1,27 @@
+# Nanhu Interactive
+
+> Vetted proprietary iOS codebases and software assets ready for immediate developer transfer.
+
+Nanhu Interactive builds, audits, and transitions premium, native iOS mobile applications. All properties feature 100% clean Swift/SwiftUI architectures, pre-configured StoreKit 2 paywalls, full test suites, and zero technical debt.
+
+## Key Metrics & Standards
+
+- **Pricing**: Flat-rate acquisition at $14,999 USD per codebase asset.
+- **Languages**: 100% native Swift and SwiftUI.
+- **Quality**: 90%+ code coverage (full XCTest suites).
+- **Compliance**: Bi-directional Apple HealthKit sync, CoreMotion activity classification, AVFoundation speech-to-text autoscroll, and local SwiftData cache targets.
+- **Handover Protocol**: Escrow.com secured transactions with 7-day inspection windows, 30 days of direct technical support, and instant App Store Connect handover.
+
+## Software Assets Catalog
+
+- **QR Maker**: Dynamic QR code generator utility and widget. SwiftUI, SwiftData, CoreImage, StoreKit 2, WidgetKit. Pre-configured StoreKit paywalls. Live on App Store. Link: https://nanhuinteractive.dev/apps/qr-maker (App Store: https://apps.apple.com/app/qr-maker/id6775972421)
+- **Fit60**: 60-day workout challenge companion and tracker. SwiftUI, SwiftData, HealthKit, StoreKit 2, CoreMotion. Live on App Store. Link: https://nanhuinteractive.dev/apps/fit60 (App Store: https://apps.apple.com/app/fit60/id6786881668)
+- **NanhuFX**: Speech-recognition voice-synced video teleprompter. SwiftUI, SwiftData, Speech Recognition, AVFoundation, iCloud, StoreKit 2. Link: https://nanhuinteractive.dev/apps/nanhufx (App Store: Coming soon)
+
+## Key Pages & Resources
+
+- **About Us**: Information on Nanhu's code standards, compiler compliance, and static analysis verification protocol. Link: https://nanhuinteractive.dev/about
+- **Acquisition ROI**: Build vs. Buy comparison data calculator for private equity and SaaS portfolios. Link: https://nanhuinteractive.dev/acquire
+- **Refinery Log**: Deep technical write-ups and system migration case studies. Link: https://nanhuinteractive.dev/blog
+- **Contact Inquiry**: Connect directly with our lead transition engineer. Link: https://nanhuinteractive.dev/contact
+- **NDA Agreement Terms**: Terms to sign digital Non-Disclosure Agreement for repo inspection and TestFlight beta access. Link: https://nanhuinteractive.dev/privacy
