@@ -36,11 +36,20 @@ export const metadata: Metadata = {
     siteName: "Nanhu Interactive",
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "https://nanhuinteractive.dev/logo.png",
+        width: 512,
+        height: 512,
+        alt: "Nanhu Interactive Logo",
+      }
+    ]
   },
   twitter: {
     card: "summary_large_image",
     title: "Nanhu Interactive | Premium iOS Apps",
     description: "Acquire vetted, native iOS applications with clean Swift codebases and ready-to-monetize StoreKit configurations.",
+    images: ["https://nanhuinteractive.dev/logo.png"],
   }
 };
 
