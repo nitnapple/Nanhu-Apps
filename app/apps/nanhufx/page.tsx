@@ -622,10 +622,10 @@ export default function NanhuFXLandingPage() {
               <p className="text-sm md:text-base font-semibold text-white">
                 Email Support:{" "}
                 <a 
-                  href="mailto:support@nanhuinteractive.dev" 
+                  href="mailto:nanhuinteractive@gmail.com" 
                   className="text-[#FFB962] hover:underline transition-colors"
                 >
-                  support@nanhuinteractive.dev
+                  nanhuinteractive@gmail.com
                 </a>
               </p>
               <p className="text-xs md:text-sm text-neutral-400">

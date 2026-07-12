@@ -525,10 +525,10 @@ export default function RunlitLandingPage() {
               <p className="text-sm md:text-base font-semibold text-white">
                 Email Support:{" "}
                 <a 
-                  href="mailto:support@nanhuinteractive.dev" 
+                  href="mailto:nanhuinteractive@gmail.com" 
                   className="text-[#ff6f3c] hover:underline transition-colors"
                 >
-                  support@nanhuinteractive.dev
+                  nanhuinteractive@gmail.com
                 </a>
               </p>
               <p className="text-xs md:text-sm text-neutral-400 font-mono">

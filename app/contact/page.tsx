@@ -49,7 +49,9 @@ export default function ContactPage() {
           <div className="space-y-4 pt-4 border-t border-border">
             <div className="flex items-center gap-3 text-xs text-muted-foreground">
               <Mail className="w-4 h-4 text-foreground" />
-              <span className="font-mono">acquisitions@nanhu.studio</span>
+              <a href="mailto:nanhuinteractive@gmail.com" className="font-mono hover:underline hover:text-foreground transition-colors">
+                nanhuinteractive@gmail.com
+              </a>
             </div>
             <div className="flex items-center gap-3 text-xs text-muted-foreground">
               <MessageSquare className="w-4 h-4 text-foreground" />
