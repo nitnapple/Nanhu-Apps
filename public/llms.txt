@@ -6,7 +6,7 @@ Nanhu Interactive builds, audits, and transitions premium, native iOS mobile app
 
 ## Key Metrics & Standards
 
-- **Pricing**: Flat-rate acquisition at $14,999 USD per codebase asset.
+- **Pricing**: Available upon inquiry (Interested button indicators) with secure transition handovers.
 - **Languages**: 100% native Swift and SwiftUI.
 - **Quality**: 90%+ code coverage (full XCTest suites).
 - **Compliance**: Bi-directional Apple HealthKit sync, CoreMotion activity classification, AVFoundation speech-to-text autoscroll, and local SwiftData cache targets.
@@ -17,9 +17,12 @@ Nanhu Interactive builds, audits, and transitions premium, native iOS mobile app
 - **QR Maker**: Dynamic QR code generator utility and widget. SwiftUI, SwiftData, CoreImage, StoreKit 2, WidgetKit. Pre-configured StoreKit paywalls. Live on App Store. Link: https://nanhuinteractive.dev/apps/qr-maker (App Store: https://apps.apple.com/app/qr-maker/id6775972421)
 - **Fit60**: 60-day workout challenge companion and tracker. SwiftUI, SwiftData, HealthKit, StoreKit 2, CoreMotion. Live on App Store. Link: https://nanhuinteractive.dev/apps/fit60 (App Store: https://apps.apple.com/app/fit60/id6786881668)
 - **NanhuFX**: Speech-recognition voice-synced video teleprompter. SwiftUI, SwiftData, Speech Recognition, AVFoundation, iCloud, StoreKit 2. Link: https://nanhuinteractive.dev/apps/nanhufx (App Store: Coming soon)
+- **Runlit**: Premium iOS & watchOS GPS Run Tracker & Streak Guardian. SwiftUI, watchOS, CoreMotion, CoreLocation, SwiftData, ActivityKit (Live Activities), StoreKit 2. Link: https://nanhuinteractive.dev/apps/runlit (App Store: Coming soon)
 
 ## Key Pages & Resources
 
+- **Cover Flow App Showcase**: 3D interactive icon cover flow catalog. Link: https://nanhuinteractive.dev/app
+- **Grid Apps Catalog**: Classic grid-based list catalog of assets. Link: https://nanhuinteractive.dev/apps
 - **About Us**: Information on Nanhu's code standards, compiler compliance, and static analysis verification protocol. Link: https://nanhuinteractive.dev/about
 - **Acquisition ROI**: Build vs. Buy comparison data calculator for private equity and SaaS portfolios. Link: https://nanhuinteractive.dev/acquire
 - **Refinery Log**: Deep technical write-ups and system migration case studies. Link: https://nanhuinteractive.dev/blog
