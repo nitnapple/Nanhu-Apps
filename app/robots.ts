@@ -6,6 +6,10 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://nanhuinteractive.dev/sitemap.xml",
+    sitemap: [
+      "https://nanhuinteractive.dev/sitemap.xml",
+      "https://nanhuinteractive.dev/sitemap-images.xml",
+      "https://nanhuinteractive.dev/video-sitemap.xml"
+    ],
   };
 }

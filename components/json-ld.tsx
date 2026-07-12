@@ -85,3 +85,45 @@ export function FAQJsonLd({ mainEntity }: FAQJsonLdProps) {
     />
   );
 }
+
+interface SoftwareApplicationJsonLdProps {
+  name: string;
+  description: string;
+  image: string;
+  operatingSystem: string;
+  applicationCategory: string;
+  price?: string;
+  priceCurrency?: string;
+}
+
+export function SoftwareApplicationJsonLd({
+  name,
+  description,
+  image,
+  operatingSystem,
+  applicationCategory,
+  price = "0",
+  priceCurrency = "USD"
+}: SoftwareApplicationJsonLdProps) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": name,
+    "image": image,
+    "description": description,
+    "operatingSystem": operatingSystem,
+    "applicationCategory": applicationCategory,
+    "offers": {
+      "@type": "Offer",
+      "price": price,
+      "priceCurrency": priceCurrency
+    }
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}

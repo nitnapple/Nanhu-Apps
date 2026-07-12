@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://nanhuinteractive.dev/</loc>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/logo.png</image:loc>
+      <image:title>Nanhu Interactive Studio Logo</image:title>
+      <image:caption>Official logo for Nanhu Interactive premium iOS app acquisitions studio.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/founder_v2.jpg</image:loc>
+      <image:title>Nitin Kumar</image:title>
+      <image:caption>Founder photo of Nitin Kumar, Lead iOS Developer and Swift Student Challenge Winner.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/founder.jpg</image:loc>
+      <image:title>Nitin Kumar Profile</image:title>
+      <image:caption>Profile photograph of the founding mobile systems engineer.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://nanhuinteractive.dev/about</loc>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/founder_v2.jpg</image:loc>
+      <image:title>Founder Nitin Kumar</image:title>
+      <image:caption>Nitin Kumar, founder and lead architect behind Nanhu Interactive codebases.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://nanhuinteractive.dev/apps/fit60</loc>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/fit60/icon.jpg</image:loc>
+      <image:title>Fit60 App Icon</image:title>
+      <image:caption>Squirclized App Store icon for the Fit60 fitness tracker codebase.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/fit60/onboarding.png</image:loc>
+      <image:title>Fit60 onboarding flows</image:title>
+      <image:caption>Beautiful user onboarding screens for Fit60 workout app.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/fit60/screenshots.png</image:loc>
+      <image:title>Fit60 screenshots collage</image:title>
+      <image:caption>Collage displaying workout analytics, challenges, and heart rate integration.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/fit60/screen1.png</image:loc>
+      <image:title>Fit60 Core Activity Dashboard</image:title>
+      <image:caption>Main dashboard screen of Fit60 showing challenges progress.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/fit60/screen2.png</image:loc>
+      <image:title>Fit60 Workouts List</image:title>
+      <image:caption>Available 60-day challenges and structured exercises.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/fit60/screen3.png</image:loc>
+      <image:title>Fit60 Calorie Counter</image:title>
+      <image:caption>Active calories, step counts, and HealthKit telemetry visualizations.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/fit60/screen4.png</image:loc>
+      <image:title>Fit60 Streak Guardian</image:title>
+      <image:caption>On-device local notification targets to protect active workout streaks.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/fit60/screen5.png</image:loc>
+      <image:title>Fit60 SwiftUI Charts</image:title>
+      <image:caption>Highly modular interactive chart rendering for workout stats.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/fit60/screen6.png</image:loc>
+      <image:title>Fit60 Settings</image:title>
+      <image:caption>Local iCloud configuration parameters and device syncing options.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://nanhuinteractive.dev/apps/nanhufx</loc>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/nanhufx/icon_v2.jpg</image:loc>
+      <image:title>NanhuFX App Icon</image:title>
+      <image:caption>Squirclized App Store icon for the NanhuFX voice teleprompter codebase.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/nanhufx/icon.jpg</image:loc>
+      <image:title>NanhuFX Icon Alternative</image:title>
+      <image:caption>Alternative layout icon for speech-synced teleprompter.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/nanhufx/screen1.png</image:loc>
+      <image:title>NanhuFX Camera View</image:title>
+      <image:caption>Live video capture UI with dynamic scrolling script overlay.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/nanhufx/screen2.png</image:loc>
+      <image:title>NanhuFX Voice Scroll settings</image:title>
+      <image:caption>Configuring speech-recognition rate triggers for autoscroll speed.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/nanhufx/screen3.png</image:loc>
+      <image:title>NanhuFX Editor Interface</image:title>
+      <image:caption>Clean rich text script editor for custom prompts.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/nanhufx/screen4.png</image:loc>
+      <image:title>NanhuFX Audio parameters</image:title>
+      <image:caption>AVFoundation audio monitoring level and microphone configuration panels.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/nanhufx/screen5.png</image:loc>
+      <image:title>NanhuFX Video Exporter</image:title>
+      <image:caption>Encoding and compression export configuration view.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/nanhufx/screen6.png</image:loc>
+      <image:title>NanhuFX Cloud Sync</image:title>
+      <image:caption>iCloud Container database dashboard for scripting backups.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://nanhuinteractive.dev/apps/qr-maker</loc>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/qr-maker/icon.jpg</image:loc>
+      <image:title>QR Maker App Icon</image:title>
+      <image:caption>Squirclized App Store icon for the QR Maker custom widget codebase.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/qr-maker/onboarding.png</image:loc>
+      <image:title>QR Maker Onboarding flow</image:title>
+      <image:caption>User guide for creating dynamic custom color QR codes.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/qr-maker/screen1.png</image:loc>
+      <image:title>QR Maker Dashboard</image:title>
+      <image:caption>Dynamic list of generated custom vector QR codes.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/qr-maker/screen2.png</image:loc>
+      <image:title>QR Maker customizer</image:title>
+      <image:caption>Setting custom gradients, overlays, and embedded logos in CoreImage.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/qr-maker/screen3.png</image:loc>
+      <image:title>QR Maker WidgetKit support</image:title>
+      <image:caption>Displaying widgets on home screen with local SwiftData caches.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/qr-maker/screen4.png</image:loc>
+      <image:title>QR Maker History log</image:title>
+      <image:caption>Locally archived scans with search indexes.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/qr-maker/screen5.png</image:loc>
+      <image:title>QR Maker Paywall</image:title>
+      <image:caption>StoreKit 2 auto-renewable subscription paywall configuration.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://nanhuinteractive.dev/apps/runlit</loc>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/runlit/icon_v3.jpg</image:loc>
+      <image:title>Runlit App Icon</image:title>
+      <image:caption>Squirclized App Store icon for the Runlit GPS tracker codebase.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/runlit/icon_v2.jpg</image:loc>
+      <image:title>Runlit alternative icon</image:title>
+      <image:caption>Secondary branding icon for watchOS and iOS tracker.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/runlit/onboarding.png</image:loc>
+      <image:title>Runlit Onboarding Flow</image:title>
+      <image:caption>Explaining streak guardianship and GPS tracking authorizations.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/runlit/screen1_v2.png</image:loc>
+      <image:title>Runlit Running HUD</image:title>
+      <image:caption>Real-time running telemetry displaying pace, distance, and duration.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/runlit/screen2.png</image:loc>
+      <image:title>Runlit Route maps</image:title>
+      <image:caption>Visualizing GPS route logs overlaid on MapKit vector frames.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/runlit/screen3.png</image:loc>
+      <image:title>Runlit Achievements</image:title>
+      <image:caption>Local badges earned for active streak retention.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/apps/runlit/screen4.png</image:loc>
+      <image:title>Runlit Live Activities</image:title>
+      <image:caption>Displaying workout state on the Lock Screen Dynamic Island widget.</image:caption>
+    </image:image>
+  </url>
+</urlset>

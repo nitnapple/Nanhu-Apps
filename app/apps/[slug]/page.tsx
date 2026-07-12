@@ -4,7 +4,7 @@ import { CheckCircle2, Cpu, DollarSign, Terminal, Lock, ChevronRight } from "luc
 import { APPS_DATA } from "@/lib/apps-data";
 import { formatCurrency } from "@/lib/utils";
 import { Metadata } from "next";
-import { ProductJsonLd } from "@/components/json-ld";
+import { ProductJsonLd, SoftwareApplicationJsonLd } from "@/components/json-ld";
 import NdaGate from "./nda-gate";
 import fs from "fs";
 import path from "path";
@@ -24,9 +24,37 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const app = APPS_DATA.find((a) => a.slug === slug);
   if (!app) return { title: "App Not Found" };
 
+  const appUrl = `https://nanhuinteractive.dev/apps/${app.slug}`;
+  const appIcon = `https://nanhuinteractive.dev/apps/${app.slug}/icon.jpg`;
+
   return {
-    title: `${app.name} Acquisition Profile`,
-    description: `${app.tagline} Vetted proprietary iOS codebase. Includes verified financials and architectural audit logs.`,
+    title: `${app.name} | iOS Codebase Acquisition`,
+    description: `${app.description.slice(0, 155)}... Vetted proprietary iOS codebase. Zero technical debt, ready to transfer.`,
+    alternates: {
+      canonical: appUrl,
+    },
+    openGraph: {
+      title: `${app.name} | iOS Codebase Acquisition`,
+      description: app.tagline,
+      url: appUrl,
+      siteName: "Nanhu Interactive",
+      locale: "en_US",
+      type: "website",
+      images: [
+        {
+          url: appIcon,
+          width: 512,
+          height: 512,
+          alt: `${app.name} Icon`,
+        }
+      ]
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${app.name} | iOS Codebase Acquisition`,
+      description: app.tagline,
+      images: [appIcon],
+    }
   };
 }
 
@@ -44,8 +72,33 @@ export default async function AppDetailPage({ params }: Props) {
     .filter(f => f.startsWith("screen") && (f.endsWith(".png") || f.endsWith(".jpg")))
     .sort();
 
+  // Map schema categories and operating systems
+  const getCategoryAndOS = (appSlug: string) => {
+    switch (appSlug) {
+      case "fit60":
+        return { category: "FitnessApplication", os: "iOS, watchOS" };
+      case "nanhufx":
+        return { category: "MultimediaApplication", os: "iOS" };
+      case "qr-maker":
+        return { category: "UtilitiesApplication", os: "iOS" };
+      case "runlit":
+        return { category: "FitnessApplication", os: "iOS, watchOS" };
+      default:
+        return { category: "SoftwareApplication", os: "iOS" };
+    }
+  };
+
+  const schemaInfo = getCategoryAndOS(app.slug);
+
   return (
     <div className="relative min-h-screen bg-background pb-20">
+      <SoftwareApplicationJsonLd
+        name={app.name}
+        description={app.description}
+        image={`https://nanhuinteractive.dev/apps/${app.slug}/icon.jpg`}
+        operatingSystem={schemaInfo.os}
+        applicationCategory={schemaInfo.category}
+      />
       {/* Sticky Product Sub-Navbar */}
       <div className="sticky top-12 left-0 right-0 z-40 bg-white/80 backdrop-blur-md border-b border-border h-12">
         <div className="max-w-6xl mx-auto px-6 h-full flex items-center justify-between">
