@@ -1,6 +1,7 @@
 import { MetadataRoute } from "next";
 import { APPS_DATA } from "@/lib/apps-data";
 import { getBlogPosts } from "@/lib/blog";
+import { SEO_LANDINGS } from "@/lib/seo-landing-data";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = "https://nanhuinteractive.dev";
@@ -20,6 +21,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     lastModified: new Date(),
     changeFrequency: "weekly" as const,
     priority: route === "" ? 1.0 : 0.8,
+  }));
+
+  // Programmatic SEO routes
+  const seoSlugs = Object.keys(SEO_LANDINGS);
+  const seoRoutes = seoSlugs.map((slug) => ({
+    url: `${baseUrl}/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.8,
   }));
 
   // Dynamic app routes
@@ -64,5 +74,5 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.7,
   }));
 
-  return [...staticRoutes, ...appRoutes, ...duplicateAppRoutes, ...blogRoutes];
+  return [...staticRoutes, ...seoRoutes, ...appRoutes, ...duplicateAppRoutes, ...blogRoutes];
 }
