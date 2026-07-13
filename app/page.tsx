@@ -426,7 +426,7 @@ export default function Home() {
                 MVVM patterns. Zero shortcuts.
               </h2>
               <p className="text-muted-foreground text-xs md:text-sm leading-relaxed">
-                We believe software assets should be a joy to inherit. Our applications are engineered with strict design system tokens, fully isolated target targets, and comprehensive test documentation.
+                Nanhu Interactive, founded by award-winning iOS systems developer Nitin Kumar, builds high-performance, clean-architecture software assets. Our applications are engineered with strict design system tokens, fully isolated target targets, and comprehensive test documentation.
               </p>
             </div>
 

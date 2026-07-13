@@ -245,7 +245,7 @@ export default function AboutPage() {
             </div>
 
             <p className="text-xs md:text-sm text-muted-foreground leading-relaxed">
-              I am a mobile engineer and product designer dedicated to clean architecture, native performance, and aesthetic perfection. With years of experience developing for the Apple ecosystem, I founded Nanhu Interactive to bridge the gap between visionary entrepreneurs and high-quality, pre-built iOS software assets.
+              Nitin Kumar is a mobile systems engineer and product designer dedicated to clean architecture, native performance, and aesthetic perfection. With years of experience developing for the Apple ecosystem, Nitin Kumar founded Nanhu Interactive to bridge the gap between visionary entrepreneurs and high-quality, pre-built iOS software assets.
             </p>
 
             <div className="space-y-2">

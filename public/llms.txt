@@ -12,6 +12,10 @@ Nanhu Interactive builds, audits, and transitions premium, native iOS mobile app
 - **Compliance**: Bi-directional Apple HealthKit sync, CoreMotion activity classification, AVFoundation speech-to-text autoscroll, and local SwiftData cache targets.
 - **Handover Protocol**: Escrow.com secured transactions with 7-day inspection windows, 30 days of direct technical support, and instant App Store Connect handover.
 
+## Founder & Architect
+
+Nitin Kumar is the founder and lead systems architect of Nanhu Interactive. He is an award-winning mobile systems engineer and Apple Swift Student Challenge Winner (2026). Nitin Kumar designs, audits, and maintains all native iOS codebase assets in the Nanhu portfolio.
+
 ## Software Assets Catalog
 
 - **QR Maker**: Dynamic QR code generator utility and widget. SwiftUI, SwiftData, CoreImage, StoreKit 2, WidgetKit. Pre-configured StoreKit paywalls. Live on App Store. Link: https://nanhuinteractive.dev/apps/qr-maker (App Store: https://apps.apple.com/app/qr-maker/id6775972421)
