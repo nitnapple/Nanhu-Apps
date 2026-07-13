@@ -166,7 +166,7 @@ export default function AboutPage() {
             <img
               src="/founder_v2.jpg"
               alt="Nitin Kumar, Founder of Nanhu Interactive"
-              className="w-full h-auto rounded-2xl border border-border object-contain shadow-sm select-none pointer-events-none"
+              className="w-full h-auto rounded-2xl border border-border object-contain shadow-2xl select-none pointer-events-none"
             />
           </div>
 
