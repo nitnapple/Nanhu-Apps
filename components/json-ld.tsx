@@ -127,3 +127,45 @@ export function SoftwareApplicationJsonLd({
     />
   );
 }
+
+interface PersonJsonLdProps {
+  name: string;
+  url: string;
+  image: string;
+  jobTitle: string;
+  sameAs: string[];
+  organizationName: string;
+  organizationUrl: string;
+}
+
+export function PersonJsonLd({
+  name,
+  url,
+  image,
+  jobTitle,
+  sameAs,
+  organizationName,
+  organizationUrl
+}: PersonJsonLdProps) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": name,
+    "url": url,
+    "image": image,
+    "jobTitle": jobTitle,
+    "worksFor": {
+      "@type": "Organization",
+      "name": organizationName,
+      "url": organizationUrl
+    },
+    "sameAs": sameAs
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}

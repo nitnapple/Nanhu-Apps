@@ -5,7 +5,7 @@ import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import { PHProvider, PostHogPageview } from "./providers";
 
-import { OrganizationJsonLd } from "@/components/json-ld";
+import { OrganizationJsonLd, PersonJsonLd } from "@/components/json-ld";
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -75,6 +75,19 @@ export default function RootLayout({
             name="Nanhu Interactive"
             url="https://nanhuinteractive.dev"
             logo="https://nanhuinteractive.dev/logo.png"
+          />
+          <PersonJsonLd
+            name="Nitin Kumar"
+            url="https://nanhuinteractive.dev/about"
+            image="https://nanhuinteractive.dev/founder_v2.jpg"
+            jobTitle="Lead iOS Architect & Founder"
+            sameAs={[
+              "https://x.com/nitin_ghss",
+              "https://www.linkedin.com/in/nitinkumar/",
+              "https://github.com/nitnapple"
+            ]}
+            organizationName="Nanhu Interactive"
+            organizationUrl="https://nanhuinteractive.dev"
           />
         </body>
       </PHProvider>

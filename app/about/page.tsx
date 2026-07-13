@@ -1,5 +1,37 @@
 import React from "react";
 import { CheckCircle2, Cpu, FileText, Settings, ShieldCheck, HeartHandshake } from "lucide-react";
+import { PersonJsonLd } from "@/components/json-ld";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Nitin Kumar - Founder of Nanhu Interactive | iOS Systems Architect",
+  description: "Nitin Kumar is an award-winning iOS developer, Apple Swift Student Challenge Winner (2026), and founder of Nanhu Interactive. Specialized in SwiftUI and serverless mobile scaling.",
+  alternates: {
+    canonical: "https://nanhuinteractive.dev/about",
+  },
+  openGraph: {
+    title: "Nitin Kumar - Founder of Nanhu Interactive | iOS Systems Architect",
+    description: "Nitin Kumar is an award-winning iOS developer, Apple Swift Student Challenge Winner (2026), and founder of Nanhu Interactive.",
+    url: "https://nanhuinteractive.dev/about",
+    siteName: "Nanhu Interactive",
+    locale: "en_US",
+    type: "profile",
+    images: [
+      {
+        url: "https://nanhuinteractive.dev/founder_v2.jpg",
+        width: 1000,
+        height: 1200,
+        alt: "Nitin Kumar - Lead iOS Architect",
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Nitin Kumar - Founder of Nanhu Interactive",
+    description: "Nitin Kumar is an award-winning iOS developer and founder of Nanhu Interactive.",
+    images: ["https://nanhuinteractive.dev/founder_v2.jpg"],
+  }
+};
 
 const LinkedinIcon = (props: React.SVGProps<SVGSVGElement>) => (
   <svg viewBox="0 0 24 24" fill="currentColor" {...props}>
@@ -49,6 +81,19 @@ export default function AboutPage() {
 
   return (
     <div className="relative min-h-screen py-16 md:py-24 bg-background">
+      <PersonJsonLd
+        name="Nitin Kumar"
+        url="https://nanhuinteractive.dev/about"
+        image="https://nanhuinteractive.dev/founder_v2.jpg"
+        jobTitle="Lead iOS Architect & Founder"
+        sameAs={[
+          "https://x.com/nitin_ghss",
+          "https://www.linkedin.com/in/nitinkumar/",
+          "https://github.com/nitnapple"
+        ]}
+        organizationName="Nanhu Interactive"
+        organizationUrl="https://nanhuinteractive.dev"
+      />
       <div className="max-w-5xl mx-auto px-6 space-y-16">
         {/* Header */}
         <div className="space-y-4 text-left max-w-3xl animate-fade-in-up">
