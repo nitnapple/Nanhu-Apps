@@ -386,7 +386,7 @@ export default function Home() {
             <img
               src="/founder_v2.jpg"
               alt="Nitin Kumar, Founder of Nanhu Interactive"
-              className="w-full h-auto rounded-2xl border border-border object-contain shadow-md hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 select-none cursor-pointer"
+              className="w-full h-auto rounded-2xl border border-border object-contain shadow-md hover:shadow-[0_30px_60px_-10px_rgba(0,0,0,0.6)] hover:-translate-y-2 transition-all duration-300 select-none cursor-pointer"
             />
             <div className="space-y-2">
               <span className="font-mono text-[9px] uppercase tracking-wider text-muted-foreground">The architect</span>
