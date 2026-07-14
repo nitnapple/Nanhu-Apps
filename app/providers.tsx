@@ -4,6 +4,7 @@ import { useEffect, Suspense } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
 import posthog from "posthog-js";
 import { PostHogProvider } from "posthog-js/react";
+import Clarity from "@microsoft/clarity";
 
 if (typeof window !== "undefined") {
   posthog.init(process.env.NEXT_PUBLIC_POSTHOG_KEY!, {
@@ -41,5 +42,12 @@ export function PostHogPageview() {
 }
 
 export function PHProvider({ children }: { children: React.ReactNode }) {
+  useEffect(() => {
+    const clarityId = process.env.NEXT_PUBLIC_CLARITY_PROJECT_ID;
+    if (clarityId && typeof window !== "undefined") {
+      Clarity.init(clarityId);
+    }
+  }, []);
+
   return <PostHogProvider client={posthog}>{children}</PostHogProvider>;
 }
