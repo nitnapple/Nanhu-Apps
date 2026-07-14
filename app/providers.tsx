@@ -43,9 +43,9 @@ export function PostHogPageview() {
 
 export function PHProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
-    const clarityId = process.env.NEXT_PUBLIC_CLARITY_PROJECT_ID;
-    if (clarityId && typeof window !== "undefined") {
-      Clarity.init(clarityId);
+    if (typeof window !== "undefined") {
+      const projectId = "xmaogvvarc";
+      Clarity.init(projectId);
     }
   }, []);
 
