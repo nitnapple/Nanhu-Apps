@@ -7,11 +7,12 @@ import { PostHogProvider } from "posthog-js/react";
 import Clarity from "@microsoft/clarity";
 
 if (typeof window !== "undefined") {
-  posthog.init(process.env.NEXT_PUBLIC_POSTHOG_KEY!, {
-    api_host: process.env.NEXT_PUBLIC_POSTHOG_HOST || "https://us.i.posthog.com",
+  posthog.init('phc_yXouaAwGMxjv3xjs3vW4aSMiggUCkZT53jRWQYGsUPvX', {
+    api_host: 'https://eu.i.posthog.com',
     person_profiles: "identified_only",
     capture_pageview: false, // Pageview tracking is handled manually below
-  });
+    defaults: '2026-05-30'
+  } as any);
 }
 
 function PostHogPageviewContent() {
