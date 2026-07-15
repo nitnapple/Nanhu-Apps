@@ -40,6 +40,7 @@ export default function Footer() {
             <li><Link href="/apps/qr-maker" className="hover:text-white transition-colors">QR Maker</Link></li>
             <li><Link href="/apps/fit60" className="hover:text-white transition-colors">Fit60</Link></li>
             <li><Link href="/apps/nanhufx" className="hover:text-white transition-colors">NanhuFX</Link></li>
+            <li><Link href="/apps/runlit" className="hover:text-white transition-colors">Runlit</Link></li>
           </ul>
         </div>
         
