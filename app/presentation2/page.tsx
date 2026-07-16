@@ -187,11 +187,13 @@ export default function PresentationLightPage() {
                 className="bg-neutral-50 border border-neutral-200 p-6 rounded-3xl flex flex-col justify-between aspect-square group shadow-sm"
               >
                 <div className="space-y-4">
-                  {/* Squirclized Gradient App Icon */}
-                  <div className={`w-12 h-12 rounded-[14px] flex items-center justify-center bg-gradient-to-tr ${app.bgColor} shadow-md ring-1 ring-neutral-900/5`}>
-                    <span className="text-neutral-800 font-bold font-mono text-sm tracking-tight uppercase">
-                      {app.name.substring(0, 2)}
-                    </span>
+                  {/* Squirclized App Icon */}
+                  <div className="w-12 h-12 rounded-[14px] overflow-hidden shadow-md ring-1 ring-neutral-900/5 bg-neutral-100 shrink-0">
+                    <img 
+                      src={`/apps/${app.slug}/icon.jpg`} 
+                      alt={`${app.name} Icon`} 
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <div className="space-y-1">
                     <h4 className="text-base font-bold font-display uppercase tracking-tight text-neutral-900">{app.name}</h4>
