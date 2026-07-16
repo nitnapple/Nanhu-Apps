@@ -83,6 +83,12 @@ const imageSitemapData = [
     ]
   },
   {
+    loc: `${baseUrl}/presentation2`,
+    images: [
+      { loc: `${baseUrl}/logo.png`, title: "Nanhu Interactive Light Keynote Presentation Logo", caption: "Light mode keynote presenting the 2026 native iOS app lineup." }
+    ]
+  },
+  {
     loc: `${baseUrl}/apps/fit60`,
     images: appImages.fit60
   },

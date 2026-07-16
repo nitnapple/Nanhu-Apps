@@ -36,6 +36,14 @@
     </image:image>
   </url>
   <url>
+    <loc>https://nanhuinteractive.dev/presentation2</loc>
+    <image:image>
+      <image:loc>https://nanhuinteractive.dev/logo.png</image:loc>
+      <image:title>Nanhu Interactive Light Keynote Presentation Logo</image:title>
+      <image:caption>Light mode keynote presenting the 2026 native iOS app lineup.</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://nanhuinteractive.dev/apps/fit60</loc>
     <image:image>
       <image:loc>https://nanhuinteractive.dev/apps/fit60/icon.jpg</image:loc>

@@ -93,6 +93,8 @@ output += `
 
 - **Cover Flow App Showcase**: 3D interactive icon cover flow catalog. Link: ${baseUrl}/app
 - **Grid Apps Catalog**: Classic grid-based list catalog of assets. Link: ${baseUrl}/apps
+- **Dark Mode Keynote**: Interactive dark theme keynote presenting the 2026 app lineup. Link: ${baseUrl}/presentation
+- **Light Mode Keynote**: Interactive light theme keynote presenting the 2026 app lineup. Link: ${baseUrl}/presentation2
 - **About Us**: Information on Nanhu's code standards, compiler compliance, and static analysis verification protocol. Link: ${baseUrl}/about
 - **Acquisition ROI**: Build vs. Buy comparison data calculator for private equity and SaaS portfolios. Link: ${baseUrl}/acquire
 - **Refinery Log**: Deep technical write-ups and system migration case studies. Link: ${baseUrl}/blog

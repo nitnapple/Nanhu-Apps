@@ -52,6 +52,16 @@
     </video:video>
   </url>
   <url>
+    <loc>https://nanhuinteractive.dev/presentation2</loc>
+    <video:video>
+      <video:thumbnail_loc>https://nanhuinteractive.dev/apps/qr-maker/onboarding.png</video:thumbnail_loc>
+      <video:title>QR Maker iOS App Customizer Walkthrough</video:title>
+      <video:description>Interactive dashboard demonstration of QR Maker displaying dynamic custom vector color generations and home screen widgets.</video:description>
+      <video:content_loc>https://nanhuinteractive.dev/QR-maker.mp4</video:content_loc>
+      <video:publication_date>2026-07-12T00:00:00+00:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
     <loc>https://nanhuinteractive.dev/healthkit-apps</loc>
     <video:video>
       <video:thumbnail_loc>https://nanhuinteractive.dev/apps/fit60/screenshots.png</video:thumbnail_loc>

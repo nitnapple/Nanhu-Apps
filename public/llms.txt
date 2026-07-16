@@ -156,6 +156,8 @@ Deep architectural analyses and step-by-step systems integrations written by fou
 
 - **Cover Flow App Showcase**: 3D interactive icon cover flow catalog. Link: https://nanhuinteractive.dev/app
 - **Grid Apps Catalog**: Classic grid-based list catalog of assets. Link: https://nanhuinteractive.dev/apps
+- **Dark Mode Keynote**: Interactive dark theme keynote presenting the 2026 app lineup. Link: https://nanhuinteractive.dev/presentation
+- **Light Mode Keynote**: Interactive light theme keynote presenting the 2026 app lineup. Link: https://nanhuinteractive.dev/presentation2
 - **About Us**: Information on Nanhu's code standards, compiler compliance, and static analysis verification protocol. Link: https://nanhuinteractive.dev/about
 - **Acquisition ROI**: Build vs. Buy comparison data calculator for private equity and SaaS portfolios. Link: https://nanhuinteractive.dev/acquire
 - **Refinery Log**: Deep technical write-ups and system migration case studies. Link: https://nanhuinteractive.dev/blog

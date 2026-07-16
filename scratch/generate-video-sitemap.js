@@ -41,6 +41,7 @@ const videoSitemapData = [
   { loc: `${baseUrl}/apps/qr-maker`, video: videos.qrMaker },
   { loc: `${baseUrl}/apps/runlit`, video: videos.runlit },
   { loc: `${baseUrl}/presentation`, video: videos.qrMaker },
+  { loc: `${baseUrl}/presentation2`, video: videos.qrMaker },
   
   // SEO Landing Page Video Mappings
   { loc: `${baseUrl}/healthkit-apps`, video: videos.fit60 },
