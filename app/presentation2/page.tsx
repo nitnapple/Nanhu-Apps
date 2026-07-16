@@ -165,8 +165,57 @@ export default function PresentationLightPage() {
         </div>
       </motion.section>
 
-      {/* Spacer to push slides down while hero sticky opacity scrolls */}
-      <div className="h-40" />
+      {/* 2. Apps Portfolio Catalog Grid Showcase */}
+      <section className="relative w-full py-24 md:py-32 border-t border-neutral-200 bg-white z-20">
+        <div className="max-w-7xl mx-auto px-6 space-y-16">
+          <div className="text-left space-y-4 max-w-3xl">
+            <span className="font-mono text-xs uppercase tracking-widest text-neutral-500 block">The Collection</span>
+            <h2 className="text-3xl sm:text-5xl font-extrabold uppercase font-display text-neutral-900">
+              Engineered Asset Portfolio
+            </h2>
+            <p className="text-neutral-500 text-xs sm:text-sm leading-relaxed max-w-2xl">
+              Explore the detailed technical architectures and verified build telemetry of our 2026 native iOS applications. Select any asset below to scroll directly to its Keynote slides.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {appsPresentationData.map((app, i) => (
+              <motion.div 
+                key={app.slug}
+                whileHover={{ y: -6 }}
+                transition={{ type: "spring", stiffness: 300, damping: 20 }}
+                className="bg-neutral-50 border border-neutral-200 p-6 rounded-3xl flex flex-col justify-between aspect-square group shadow-sm"
+              >
+                <div className="space-y-4">
+                  {/* Squirclized Gradient App Icon */}
+                  <div className={`w-12 h-12 rounded-[14px] flex items-center justify-center bg-gradient-to-tr ${app.bgColor} shadow-md ring-1 ring-neutral-900/5`}>
+                    <span className="text-neutral-800 font-bold font-mono text-sm tracking-tight uppercase">
+                      {app.name.substring(0, 2)}
+                    </span>
+                  </div>
+                  <div className="space-y-1">
+                    <h4 className="text-base font-bold font-display uppercase tracking-tight text-neutral-900">{app.name}</h4>
+                    <p className="text-neutral-500 text-[11px] leading-relaxed line-clamp-2">{app.tagline}</p>
+                  </div>
+                </div>
+
+                <div className="pt-4 flex items-center justify-between border-t border-neutral-200 mt-4">
+                  <a 
+                    href={`#${app.slug}`}
+                    className="text-[10px] font-mono uppercase tracking-wider text-neutral-800 hover:text-neutral-500 transition-colors inline-flex items-center gap-1 cursor-pointer"
+                  >
+                    View Keynote
+                    <ChevronRight className="w-3.5 h-3.5" />
+                  </a>
+                  <span className="text-[9px] font-mono text-neutral-500 bg-neutral-100 border border-neutral-200 px-2 py-0.5 rounded">
+                    {app.specs.framework.split(" ")[0]}
+                  </span>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* 2. Individual App Presenter Slides */}
       {appsPresentationData.map((app, index) => (
