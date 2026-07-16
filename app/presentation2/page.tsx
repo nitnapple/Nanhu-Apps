@@ -4,6 +4,7 @@ import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { ChevronRight, Play, Cpu, ShieldCheck, FileText, ArrowRight, Sun, Moon } from "lucide-react";
 import { motion, useScroll, useTransform } from "framer-motion";
+import SmokeEffect from "@/components/smoke-effect";
 
 // Apps metadata with Apple-style presentation specifications
 const appsPresentationData = [
@@ -136,7 +137,8 @@ export default function PresentationLightPage() {
         style={{ opacity: heroOpacity, scale: heroScale }}
         className="sticky top-0 h-screen w-full flex flex-col items-center justify-center text-center px-6 z-10 bg-gradient-to-b from-white via-neutral-100 to-neutral-50"
       >
-        <div className="space-y-6 max-w-4xl">
+        <SmokeEffect theme="light" />
+        <div className="space-y-6 max-w-4xl relative z-10">
           <span className="font-mono text-xs uppercase tracking-widest text-neutral-500 bg-neutral-200/60 border border-neutral-300 px-3.5 py-1 rounded-full inline-block">
             Nanhu Interactive Keynote
           </span>
