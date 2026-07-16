@@ -18,6 +18,7 @@ export default function Navbar() {
 
   const links = [
     { href: "/apps", label: "Portfolio" },
+    { href: "/presentation", label: "Presentation" },
     { href: "/about", label: "About" },
     { href: "/blog", label: "Blog" },
     { href: "/contact", label: "Contact" },
